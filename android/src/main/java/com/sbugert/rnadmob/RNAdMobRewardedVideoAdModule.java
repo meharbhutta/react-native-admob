@@ -63,6 +63,11 @@ public class RNAdMobRewardedVideoAdModule extends ReactContextBaseJavaModule imp
     public void onRewardedVideoAdClosed() {
         sendEvent("rewardedVideoDidClose", null);
     }
+    
+    @Override
+    public void onRewardedVideoCompleted() {
+        sendEvent("rewardedVideoDidClose", null);
+    }
 
     @Override
     public void onRewardedVideoAdLeftApplication() {

@@ -54,7 +54,7 @@ export default class AdMobBanner extends React.Component {
 }
 
 AdMobBanner.propTypes = {
-  style: View.propTypes.style,
+  style: PropTypes.object,
 
   /**
    * AdMob iOS library banner size constants

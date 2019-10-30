@@ -56,7 +56,7 @@ export default class PublisherBanner extends React.Component {
 }
 
 PublisherBanner.propTypes = {
-  style: View.propTypes.style,
+  style: PropTypes.object,
 
   /**
    * AdMob iOS library banner size constants
